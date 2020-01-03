@@ -1,5 +1,7 @@
  Image Scaling
  ======
+ 雙線性插植法(bilinear)
+ --
  這次Lab所使用的內插法為雙線性插植法(bilinear)
  想法是令f(x,y)=ax+by+cxy+d
 

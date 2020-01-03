@@ -1,5 +1,5 @@
-Here is an example of AppleScript:
+# This is an H1
 
-    tell application "Foo"
-        beep
-    end tell
+## This is an H2
+
+###### This is an H6

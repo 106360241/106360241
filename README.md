@@ -20,6 +20,7 @@
  這個方法相較於nearest雖然運算量較大，但縮放後得到的image品質較好
  
  不會出現像素不連續的狀況
+ 
  **以下為程式進行雙線性內插**
  
 ![雙線性插值](https://github.com/DigitalSignalProcessingNTUT2018/lab-4-image-scaling-106360241/blob/master/%E9%9B%99%E7%B7%9A%E6%80%A7%E6%8F%92%E5%80%BC.PNG) 

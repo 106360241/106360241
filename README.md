@@ -26,9 +26,9 @@
 :----:
 輸入圖片
 ![4倍大圖片](https://github.com/DigitalSignalProcessingNTUT2018/lab-4-image-scaling-106360241/blob/master/%E6%94%BE%E5%A4%A74%E5%80%8D.PNG)
-:----:
+
 放大四倍
 ![九倍小圖片](https://github.com/DigitalSignalProcessingNTUT2018/lab-4-image-scaling-106360241/blob/master/%E7%B8%AE%E5%B0%8F9%E5%80%8D.PNG)
-:----:
+
 縮小九倍
 

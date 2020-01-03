@@ -39,7 +39,7 @@
 ![九倍小圖片](https://github.com/DigitalSignalProcessingNTUT2018/lab-4-image-scaling-106360241/blob/master/%E7%B8%AE%E5%B0%8F9%E5%80%8D.PNG)
 
 
-`close all; clear all`
+``close all; clear all
 I=imread('6dog.jpg'); 
 figure,imshow(I); axis on
 xlabel x;
@@ -104,6 +104,6 @@ xlabel x;
 figure;imshow(uint8(imresize(I,1/9)))
 title('imresize縮小9倍')
 axis on
-xlabel x;
-``
+xlabel x; ``
+
 

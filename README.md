@@ -1,5 +1,2 @@
-# 這個是
+# 這次Lab所使用的內插法為雙線性插植法(#bilinear)
 
-## This is an H2
-
-# This is an H6

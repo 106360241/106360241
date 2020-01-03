@@ -23,5 +23,6 @@
 
 *******************************************************************************************
 ![輸入圖片](https://github.com/DigitalSignalProcessingNTUT2018/lab-4-image-scaling-106360241/blob/master/6dog.jpg)
-
+:----:
+輸入圖片
 

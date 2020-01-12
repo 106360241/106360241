@@ -1,66 +1,66 @@
- Convolution and Frequency Response
- ======
- Convolution
- --
-   ![頻率響應](https://github.com/DigitalSignalProcessingNTUT2018/lab-2-lti-system-convolution-and-frequency-response-106360241/blob/master/conv.PNG)
- 
- frequency response
----
-
-  ![頻率響應](https://github.com/DigitalSignalProcessingNTUT2018/lab-2-lti-system-convolution-and-frequency-response-106360241/blob/master/freqre.PNG)
-  
-  
-  
- **下圖為各種濾波器種類**
- 
- 
-![濾波器種類](https://github.com/DigitalSignalProcessingNTUT2018/lab-2-lti-system-convolution-and-frequency-response-106360241/blob/master/%E6%BF%BE%E6%B3%A2%E5%99%A8.PNG) 
-
-
-  
-  
- 下圖為輸入與輸出信號波形圖
+Lab3-Resample
+======
+ upsampling 
  --
  
- ![波形](https://github.com/DigitalSignalProcessingNTUT2018/lab-2-lti-system-convolution-and-frequency-response-106360241/blob/master/%E6%B3%A2%E5%BD%A2%E5%9C%96.PNG)
+   ![resample](https://github.com/DigitalSignalProcessingNTUT2018/lab-3-resampling-106360241/blob/master/upsampling.png)
+ 
+ downsampling
+ --
+ 
+  ![resample](https://github.com/DigitalSignalProcessingNTUT2018/lab-3-resampling-106360241/blob/master/downsampling.PNG)
+  
+ lowpass filter
+ --
+  
+  ![resample](https://github.com/DigitalSignalProcessingNTUT2018/lab-3-resampling-106360241/blob/master/LP%20filter.PNG)
+
+*****************************************
+
+輸出結果
+--
+  
+ **下圖為lowpass filter 的 frequency respond**
+ 
+ 
+![濾波器種類](https://github.com/DigitalSignalProcessingNTUT2018/lab-3-resampling-106360241/blob/master/LP_freqz.PNG) 
+
+
+  
+  
+ 下圖為先將10K -> 110k 在進行低通濾波 在 -> 22k 波形及頻譜圖
+ --
+ 
+ ![波形](https://github.com/DigitalSignalProcessingNTUT2018/lab-3-resampling-106360241/blob/master/110k%20to%2022k.PNG)
  
 
- 下圖為輸入與輸出信號頻譜圖
+ 下圖為先將10K -> 40k 在進行低通濾波 在 -> 8k 波形及頻譜圖
  --
  
- ![輸入與輸出信號頻譜](https://github.com/DigitalSignalProcessingNTUT2018/lab-2-lti-system-convolution-and-frequency-response-106360241/blob/master/%E9%A0%BB%E8%AD%9C%E5%9C%96.PNG)
+ ![輸入與輸出信號頻譜](https://github.com/DigitalSignalProcessingNTUT2018/lab-3-resampling-106360241/blob/master/40k%20to%208k.PNG)
  
- 下圖為各個濾波器的頻率響應圖
+ 
+ 
+ 
+ ********************************************************
+Observation
  --
  
- **Ideal Delay**
- 
- ![頻率響應](https://github.com/DigitalSignalProcessingNTUT2018/lab-2-lti-system-convolution-and-frequency-response-106360241/blob/master/Ideal%20Delay.PNG)
- 
-  **Moving Average**
- 
- ![頻率響應](https://github.com/DigitalSignalProcessingNTUT2018/lab-2-lti-system-convolution-and-frequency-response-106360241/blob/master/Moving%20Average.PNG)
- 
-  **Accumulator**
- 
- ![頻率響應](https://github.com/DigitalSignalProcessingNTUT2018/lab-2-lti-system-convolution-and-frequency-response-106360241/blob/master/Accumulator.PNG)
- 
-  **Forward Diff**
- 
- ![頻率響應](https://github.com/DigitalSignalProcessingNTUT2018/lab-2-lti-system-convolution-and-frequency-response-106360241/blob/master/Forward.PNG)
- 
-  **Backward Diff**
- 
- ![頻率響應](https://github.com/DigitalSignalProcessingNTUT2018/lab-2-lti-system-convolution-and-frequency-response-106360241/blob/master/Backward.PNG)
+ 一開始先將以10k取樣的聲音訊號用zero-padding的方式升頻到想要的頻道，但聲音聽起來會有很多雜訊，之後透過matlab產生的低通濾波器，將一些高頻的雜訊濾除，再降回低頻，這樣聲音訊號聽起來就跟原本的差不多，不會有太多雜音出現
  
 *******************************************************************************************
 
 Source Code
 --
-main code 為 *lab3.m*
+main code 為 *resample.m*
 
-frequency respond 為 *freqre.m*
+升頻 為 *upsampling.m*
 
-convolution 為 *convv.m*
+降頻 為 *downsampling.m*
 
+低通濾波器 為 *lowpassfilter.m*
+
+輸入訊號 為 *10khz_message.wav*
+ 
+ 
 

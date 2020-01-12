@@ -45,12 +45,6 @@ filter design
   ![resample](https://github.com/DigitalSignalProcessingNTUT2018/lab-5-graphic-equalizer-106360241/blob/master/%E5%80%8B%E9%80%9A%E9%81%93%E5%A2%9E%E7%9B%8A.PNG)
   
 
-  
- **下圖為lowpass filter 的 frequency respond**
- 
- 
-![濾波器種類](https://github.com/DigitalSignalProcessingNTUT2018/lab-3-resampling-106360241/blob/master/LP_freqz.PNG) 
-
  
 *******************************************************************************************
 
